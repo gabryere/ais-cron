@@ -1,14 +1,14 @@
 {
   "name": "ais-cron",
   "version": "1.0.0",
+  "description": "Cron job per salvare dati AIS su Supabase ogni 5 minuti",
+  "main": "index.js",
   "type": "module",
-  "main": "cron.js",
   "scripts": {
-    "start": "node cron.js"
+    "start": "node index.js"
   },
   "dependencies": {
-    "ws": "^8.13.0",
     "node-fetch": "^3.3.2",
-    "@supabase/supabase-js": "^2.39.3"
+    "@supabase/supabase-js": "^2.39.5"
   }
 }
